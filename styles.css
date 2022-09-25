@@ -1,12 +1,83 @@
+:root {
+  --color-red: #ec1840;
+  --color-purple: #7a18ec;
+  --color-white: #fff;
+  --color-black-1: #111;
+  --color-black-2: #222;
+  --color-black-3: #444;
+  --speed-normal: 0.5s;
+  --speed-fast: 0.8s;
+}
+body {
+  background-color: rgba(110, 163, 241, 0.541);
+}
+.input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+label {
+  margin-left: 10px;
+}
+h1 {
+  margin-left: 10px;
+}
+#fbtn {
+  position: relative;
+  width: 180px;
+  height: 60px;
+  margin: 20px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+  trasnition: var(--speed-normal);
+  border: 1px solid var(--color-red);
+}
+#fbtn:hover {
+  border: 1px solid transparent;
+  background: rgb(247, 156, 156);
+  transition-delay: 0.1s;
+  background-size: 180px;
+}
+
+.labelL {
+  margin-right: 16px;
+}
+.labelR {
+  margin-right: 7px;
+}
+.section {
+  max-width: 1200px;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-height: 900px;
+
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1%;
+  border-style: solid;
+  border-color: rgba(189, 215, 255, 0.541);
+}
 .triangle {
   position: relative;
 }
 #triangle-representation {
   position: absolute;
-   width: 0px;
-   height: 0px;
-   border-style: solid;
-   border-width: 0 2rem 1rem 1rem;
-   border-color: transparent transparent #FF4532 transparent;
-   transform: rotate(0deg);
+  left: 50%;
+  top: 30%;
+  right: auto;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 2rem 1rem 1rem;
+  border-color: transparent transparent red transparent;
+  transform: rotate(0deg);
 }

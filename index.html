@@ -8,17 +8,19 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Please enter triangle size</h1>
-    <label for="fname">Left:</label>
-    <input type="text" id="left-value" name="fname" /><br /><br />
-    <label for="fname">Right:</label>
-    <input type="text" id="right-value" name="fname" /><br /><br />
-    <label for="fname">Height:</label>
-    <input type="text" id="height" name="fname" /><br /><br />
-    <input type="submit" id="fbtn" value="Submit" />
+    <section class="section">
+      <h1>Please enter length of triangle sides</h1>
+      <label for="fname" class="labelL">Left:</label>
+      <input type="text" id="left-value" class="input" /><br /><br />
+      <label for="fname" class="labelR">Right:</label>
+      <input type="text" id="right-value" class="input" /><br /><br />
+      <label for="fname" class="label">Height:</label>
+      <input type="text" id="height" class="input" /><br /><br />
+      <input type="submit" id="fbtn" value="Submit" />
 
-    <p id="text">Your Triangle</p>
-    <div id="triangle-representation"></div>
+      <p id="text"></p>
+      <div id="triangle-representation"></div>
+    </section>
   </body>
   <script src="./trianglecheck.js"></script>
 </html>
