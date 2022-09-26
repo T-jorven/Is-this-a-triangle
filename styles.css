@@ -39,6 +39,7 @@ h1 {
   color: red;
   trasnition: var(--speed-normal);
   border: 1px solid var(--color-red);
+  margin-left: 70px;
 }
 #fbtn:hover {
   border: 1px solid transparent;
@@ -47,11 +48,8 @@ h1 {
   background-size: 180px;
 }
 
-.labelL {
-  margin-right: 16px;
-}
-.labelR {
-  margin-right: 7px;
+.label{
+  margin-right: 10px;
 }
 .section {
   max-width: 1200px;
